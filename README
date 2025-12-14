@@ -1,0 +1,66 @@
+🧠Creature Lab
+
+Small type script project where you can biuld your own creature
+out of three elements. each creature can be made of water, fire and
+earth and each have their own specific attributes.
+
+this project was built to practice core typescript concepts such as
+classes, abstract classes, interfaces, enums, and basic type inheritence.
+
+✨Features:
+Each creature has:
+State (baby, normal, evolved)
+Core element (water, fire, earth)
+Attributes (attack, defend, speed)
+the creature's attribute depends on it's core element.
+
+Tech Stack:
+TypeScript
+Node.js
+ts-node (development)
+
+📁Project Structure:
+Creature/
+├─ creature-lab.ts/
+├─ tsconfig.json
+
+🚀Getting Started
+
+-Clone the repository :
+git clone https://github.com/your-username/creature-lab.git
+cd Creature
+
+-Install the dependencies :
+npm install
+
+-Run the project :
+npx ts-node creature-lab
+
+💬Example Usage
+Pyro (fire) [baby] ->
+attack:1  
+defense:1  
+speed:1
+
+Aqua (water) [baby] ->
+attack:1  
+defense:1  
+speed:1
+
+Pyro evolved into a blazing form 🔥
+Aqua evolved into a flowing guardian 💧
+
+Pyro (fire) [evolved] ->
+attack:6
+defense:1
+speed:3
+
+Aqua (water) [evolved] ->
+attack:1
+defense:6
+speed:2
+
+📌Possible Improvements:
+-Add CLI interaction
+-Add a loop to allow multiple actions without restarting
+-Save creature's data to a file
